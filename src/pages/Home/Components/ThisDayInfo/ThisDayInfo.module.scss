@@ -15,9 +15,11 @@
   display: flex;
   align-items: center;
   margin-bottom: 25px;
+
   &:last-of-type {
     margin-bottom: 0;
   }
+
   .indicator,
   .indicator_name {
     margin-right: 20px;
@@ -45,5 +47,14 @@
 
   .indicator_value {
     color: $lite-color;
-  };
+  }
+;
+}
+
+.cloud_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 460px;
+  height: 202px;
 }

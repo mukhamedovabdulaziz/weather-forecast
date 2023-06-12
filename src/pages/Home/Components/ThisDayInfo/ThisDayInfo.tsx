@@ -34,12 +34,12 @@ const ThisDayInfo = () => {
   ];
   return (
     <div className={s.this_dayInfo}>
-      <div className={s.items}>
+      <div className={s.this_dayInfo_items}>
         {items.map((item: Item) => (
           <ThisDayItem key={item.icon_id} item={item} />
         ))}
       </div>
-      <img src={cloud} alt="cloud"/>
+      <img className={s.cloud_img} src={cloud} alt="cloud"/>
     </div>
   );
 };

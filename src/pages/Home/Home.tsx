@@ -6,8 +6,10 @@ import ThisDayInfo from "./Components/ThisDayInfo/ThisDayInfo";
 const Home = () => {
   return (
     <div className={s.home}>
-      <ThisDay/>
-      <ThisDayInfo/>
+      <div className={s.wrapper}>
+        <ThisDay/>
+        <ThisDayInfo/>
+      </div>
     </div>
   );
 };
